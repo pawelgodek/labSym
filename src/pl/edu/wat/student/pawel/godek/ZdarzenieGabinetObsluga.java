@@ -22,12 +22,13 @@ public class ZdarzenieGabinetObsluga extends BasicSimEvent<Gabinet, Object> {
                     gabinet.out.kolejkaGabinet1.setValue(gabinet.kolejka.size());
                     gabinet.out.zajetoscGabinet1.setValue(1);
                     gabinet.logger.log("{Gabinet 1} Pacjent o ID:" + gabinet.gabinet.ID + " jest obslugiwany\n");
+                    new ZdarzenieGabinetKoniecObslugi(gabinet, gabinet.config.rng.exponential(gabinet.config.a1));
                 } else {
                     gabinet.out.kolejkaGabinet2.setValue(gabinet.kolejka.size());
                     gabinet.out.zajetoscGabinet2.setValue(1);
                     gabinet.logger.log("{Gabinet 2} Pacjent o ID:" + gabinet.gabinet.ID + " jest obslugiwany\n");
+                    new ZdarzenieGabinetKoniecObslugi(gabinet, gabinet.config.rng.exponential(gabinet.config.a2));
                 }
-                new ZdarzenieGabinetKoniecObslugi(gabinet, gabinet.config.rng.exponential(gabinet.config.a));
             }
         }
     }

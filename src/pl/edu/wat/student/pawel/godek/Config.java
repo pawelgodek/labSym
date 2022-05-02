@@ -14,7 +14,8 @@ public class Config {
     public int rejL;
     public double l;
     public double mi;
-    public double a;
+    public double a1;
+    public double a2;
     public double low;
     public double high;
 
@@ -39,8 +40,10 @@ public class Config {
                     this.l = parseDouble(temp[1]);
                 } else if(temp[0].equals("mi")) {
                     this.mi = parseDouble(temp[1]);
-                } else if(temp[0].equals("alpha")) {
-                    this.a = parseDouble(temp[1]);
+                } else if(temp[0].equals("alpha1")) {
+                    this.a1 = parseDouble(temp[1]);
+                } else if(temp[0].equals("alpha2")) {
+                    this.a2 = parseDouble(temp[1]);
                 } else if(temp[0].equals("low")) {
                     this.low = parseDouble(temp[1]);
                 } else if(temp[0].equals("high")) {

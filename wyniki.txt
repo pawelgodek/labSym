@@ -1,9 +1,9 @@
-Prawdopodobienstwo nieobsluzenia pacjenta: 49,7%
-Sredni czas przebywania w przychodni: 44,3
-Srednia dlugosc kolejki przy recepcji: 17
-Srednia dlugosc kolejki przy gabinecie nr1: 205
-Srednia dlugosc kolejki przy gabinecie nr2: 205
-Srednia zajetosc recepcji: 99,13%
-Srednia zajetosc gabinetu nr1: 99,92%
-Srednia zajetosc gabinetu nr2: 99,54%
-Srednia liczba pacjentow w przychodni: 429,4
+Prawdopodobienstwo nieobsluzenia pacjenta: 2,9%
+Sredni czas przebywania w przychodni: 7,6
+Srednia dlugosc kolejki przy recepcji: 12,9
+Srednia dlugosc kolejki przy gabinecie nr1: 32,8
+Srednia dlugosc kolejki przy gabinecie nr2: 30,1
+Srednia zajetosc recepcji: 93,61%
+Srednia zajetosc gabinetu nr1: 99,86%
+Srednia zajetosc gabinetu nr2: 99,41%
+Srednia liczba pacjentow w przychodni: 78,7
