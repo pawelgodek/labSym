@@ -1,0 +1,3 @@
+# labSym
+
+Podstawy Symulacji Repo
