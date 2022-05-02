@@ -1,0 +1,7 @@
+czyLogowacNaKonsole=tak
+dlugoscKolejki=30
+lambda=10
+mi=10
+alpha=1
+low=40
+high=70
